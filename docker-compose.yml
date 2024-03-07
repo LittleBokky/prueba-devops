@@ -1,9 +1,9 @@
 version: "3.1"
 
 services:
-  galeria:
+  prueba-devops:
     container_name: prueba-devops
-    image: littlebokky/examen:latest
+    image: littlebokky/prueba-devops:latest
     ports:
       - 80:5000
     restart: always
